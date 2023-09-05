@@ -7,7 +7,13 @@
 }
 
 html {
+  font-size: 62.5%;
   height: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 body {
@@ -20,7 +26,7 @@ body {
 }
 
 .card-img {
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .card-text {
@@ -28,32 +34,28 @@ body {
 }
 
 .heading-primary {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .text {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-  max-width: 256px;
 }
 
 .card {
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 40px;
-  max-width: 320px;
-  max-height: 497px;
+  padding-top: 1.6rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-bottom: 4rem;
+  max-width: 32rem;
+  max-height: 49.7rem;
   background-color: #fff;
   border-radius: 20px;
 }
 
 .qr-code {
-  width: 288px;
-  height: 288px;
-  display: block;
   border-radius: 10px;
 }
